@@ -1,5 +1,6 @@
 .fondo {
-    -fx-background-image: url("../img/fondo.jpg");
+    -fx-background-image: url("../img/fade3.jpg");
+    -fx-background-size: stretch;
 }
 
 .panel {
@@ -8,16 +9,44 @@
 
 JFXButton {
     -fx-text-fill: white;
+    -fx-border-radius: 8px;
+    -fx-background-radius: 9px;
+}
+
+.boxButton {
+    -fx-border-width: 2px;
+    -fx-text-fill: rgb(177, 73, 201);
+    -fx-border-color: #b149c9;
+}
+
+.aboutUsButton {
+    -fx-background-color: #FFF;
+    -fx-text-fill: rgb(177, 73, 201);
+}
+
+.aboutUsButton:hover {
+    -fx-border-width: 2px;
+    -fx-border-color: #FFFFFF;
+}
+
+.signInButton {
+    -fx-border-width: 2px;
+    -fx-border-color: #FFFFFF;
 }
 
 VBox {
     -fx-background-color: #f6f6f6;
 }
 
-.boxButton {
-    -fx-text-fill: rgb(177, 73, 201);
+JFXTextField {
+    -fx-prompt-text-fill: #bbbbbb;
 }
 
-JFXTextField {
-    -fx-text-fill: #bbbbbb;
+JFXPasswordField {
+    -fx-prompt-text-fill: #bbbbbb;
+}
+
+Label {
+    -fx-font-size: 33px;
+    -fx-text-fill: #FFFFFF;
 }
