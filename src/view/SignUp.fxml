@@ -1,13 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import java.lang.*?>
-<?import java.util.*?>
-<?import javafx.scene.*?>
-<?import javafx.scene.control.*?>
-<?import javafx.scene.layout.*?>
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXPasswordField?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import com.jfoenix.controls.JFXToggleButton?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
 
-<AnchorPane xmlns="http://javafx.com/javafx"
-            xmlns:fx="http://javafx.com/fxml"
-            prefHeight="400.0" prefWidth="600.0">
 
+<AnchorPane prefHeight="550.0" prefWidth="950.0" styleClass="fondo" stylesheets="@estilo.css" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Pane layoutX="350.0" layoutY="160.0" prefHeight="200.0" prefWidth="200.0" styleClass="panel" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="275.0" AnchorPane.topAnchor="0.0" />
+      <VBox layoutX="766.0" layoutY="175.0" prefWidth="275.0" spacing="15.0" AnchorPane.bottomAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <JFXTextField labelFloat="true" promptText="FIRST NAME" unFocusColor="#bbbbbb" />
+            <JFXTextField labelFloat="true" promptText="LAST NAME" />
+            <JFXTextField labelFloat="true" promptText="USERNAME" />
+            <JFXTextField labelFloat="true" promptText="MAIL" />
+            <JFXPasswordField labelFloat="true" promptText="PASSWORD" />
+            <JFXPasswordField labelFloat="true" promptText="CONFIRM PASSWORD" />
+            <JFXTextField promptText="PHONE NUMBER" />
+            <JFXToggleButton text="I'M UNDER 18" />
+            <JFXButton styleClass="boxButton" text="GET STARTED" />
+         </children>
+         <padding>
+            <Insets bottom="15.0" left="15.0" right="15.0" top="15.0" />
+         </padding>
+      </VBox>
+   </children>
 </AnchorPane>
