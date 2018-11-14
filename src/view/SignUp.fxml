@@ -14,7 +14,7 @@
    <children>
       <Pane layoutX="350.0" layoutY="160.0" prefHeight="200.0" prefWidth="200.0" styleClass="panel" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="275.0" AnchorPane.topAnchor="0.0">
          <children>
-            <Label layoutX="61.0" layoutY="226.0" text="Create Your Own Account">
+            <Label layoutX="61.0" layoutY="171.0" prefHeight="104.0" prefWidth="275.0" text="Create Your Own Account" wrapText="true">
             </Label>
             <JFXButton layoutX="61.0" layoutY="300.0" prefHeight="29.0" prefWidth="81.0" styleClass="aboutUsButton" text="ABOUT US" />
             <JFXButton layoutX="148.0" layoutY="300.0" styleClass="signInButton" text="SIGN IN" />

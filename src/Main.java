@@ -16,6 +16,7 @@ public class Main extends Application {
         Parent root = FXMLLoader.load(getClass().getResource("view/SignUp.fxml"));
         primaryStage.setTitle("Sign Up");
         primaryStage.getIcons().add(new Image("img/tablet.png"));
+        primaryStage.initStyle(StageStyle.UNDECORATED);
         primaryStage.setScene(new Scene(root, 900, 500));
         primaryStage.show();
     }
