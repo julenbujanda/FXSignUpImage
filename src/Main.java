@@ -7,6 +7,10 @@ import javafx.scene.text.Font;
 import javafx.stage.Stage;
 import javafx.stage.StageStyle;
 
+/**
+ * Clase principal de la aplicación
+ * @author Julen Bujanda
+ */
 public class Main extends Application {
 
     public static void main(String[] args) {
