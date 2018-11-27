@@ -49,4 +49,5 @@ JFXPasswordField {
 Label {
     -fx-font-size: 33px;
     -fx-text-fill: #FFFFFF;
+    -fx-font-family: 'Titillium Web', sans-serif;
 }
